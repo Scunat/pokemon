@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/images/pokemon.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 616px;
+}
+nav{
+padding: 5%;
+}
+ul, a{
+display: flex;
+justify-content: space-between;
+list-style: none;
+text-decoration: none;
+font-size: 20px;
+font-family: Impact;
+color: #000000;
+}
+a:hover{
+text-decoration: underline #061574;
+}
+li{
+border: 3px solid #061574;
+border-radius: 30%;
+padding: 1%;
+background-color: rgba(197, 238, 241, 0.61);
+}
